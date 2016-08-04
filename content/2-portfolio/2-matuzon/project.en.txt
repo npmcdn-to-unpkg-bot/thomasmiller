@@ -1,0 +1,21 @@
+Title: Matuzon
+
+----
+
+Urlname: matuzon.ch
+
+----
+
+Theurl: http://matuzon.ch
+
+----
+
+Text: A single page website I built for the artist Matuzon, a friend of mine.
+
+----
+
+Key: Bootstrap, unslider, mapboxgl
+
+----
+
+Dev: 0

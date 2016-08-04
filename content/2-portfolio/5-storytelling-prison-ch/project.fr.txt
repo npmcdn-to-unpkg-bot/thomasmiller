@@ -1,0 +1,25 @@
+Title: Storytelling Prison.ch
+
+----
+
+Urlname: prison.ch
+
+----
+
+Theurl: http://stories.prison.ch/de/ubergangsmanagement/
+
+----
+
+Text: I built this website with WordPress and integrated it for prison.ch. They're goal is to build new stories quickly with these scrolling effects about different subjects that you can find at <a href="http://www.prison.ch/de/themen/themendossiers text">prison.ch</a>. It was very fun to set up and play around a bit with effects. The person responsible at SAZ was very happy about my work was very nice to work with.
+
+----
+
+Key: Wordpress, Parallax, Scrolling Effects, Storytelling
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 1

@@ -1,0 +1,25 @@
+Title: Isler & Pedrazzini AG
+
+----
+
+Urlname: islerpedrazzini.ch
+
+----
+
+Theurl: http://islerpedrazzini.ch
+
+----
+
+Text: Isler & Pedrazzini AG is a law firm based in Zürich. I built their new website using Kirby.
+
+----
+
+Key: Kirby, Responsive
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 1

@@ -1,0 +1,21 @@
+Title: Huesemann
+
+----
+
+Urlname: huesemann.org
+
+----
+
+Theurl: http://www.huesemann.org
+
+----
+
+Text: This was my first website ever! It was actually my Bachelor's thesis to build a website using a CMS. Knowing nothing about web development back then, I decided to build it with joomla. Bad idea! I then decided to rebuild it as practice (after my thesis was over), just for practice. This time I used WordPress.
+
+----
+
+Key: WordPress
+
+----
+
+Dev: 0

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="70px" height="60px" viewBox="0 0 70 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>vue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile" transform="translate(-791.000000, -2164.000000)">
+            <g id="Future" transform="translate(380.000000, 2154.000000)">
+                <g id="vue" transform="translate(411.000000, 10.000000)">
+                    <polygon id="Shape" fill="#41B883" points="56 0 70 0 35 60.086419 0 0 13.825 0 26.775 0 35 13.9330827 43.05 0"></polygon>
+                    <polygon id="Shape" fill="#41B883" points="0 0 35 60.086419 70 0 56 0 35 36.0518514 13.825 0"></polygon>
+                    <polygon id="Shape" fill="#35495E" points="13.825 0 35 36.2260149 56 0 43.05 0 35 13.9330827 26.775 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

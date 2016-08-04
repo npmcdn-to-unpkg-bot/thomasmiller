@@ -1,0 +1,85 @@
+// =====================================================
+// Media queries (Not Mobile-first!)
+// =====================================================
+
+$xl: 1400px
+$lg: 1399px
+$md: 1200px
+$sm: 992px
+$xs: 768px
+$xxs: 480px
+
+@mixin xl
+  @media (min-width: #{$xl})
+    @content
+@mixin lg
+  @media (max-width: #{$lg})
+    @content
+@mixin md
+  @media (max-width: #{$md})
+    @content
+@mixin sm
+  @media (max-width: #{$sm})
+    @content
+@mixin xs
+  @media (max-width: #{$xs})
+    @content
+@mixin xxs
+  @media (max-width: #{$xxs})
+    @content
+
+#mediaqueries
+  width: 80px
+  height: 40px
+  position: fixed
+  bottom: 5px
+  left: 5px
+  justify-content: center
+  align-items: center
+  z-index: 1000
+  display: flex
+  font-size: 12px
+  border-radius: 5px
+  +xl
+    &::after
+      content: "@xl .col-lg"
+    color: $black
+    background-color: white
+  +lg
+    &::after
+      content: "@lg .col-lg"
+    color: $black
+    background-color: #F2F1F1
+  +md
+    &::after
+      content: "@md .col-md"
+    color: $white
+    background-color: #FF5959
+  +sm
+    &::after
+      content: "@sm .col-sm"
+    color: $white
+    background-color: #003A6F
+  +xs
+    &::after
+      content: "@xs .col-xs"
+    color: $white
+    background-color: #6EC5E9
+  +xxs
+    &::after
+      content: "@xxs .col-xs"
+    color: $white
+    background-color: #FFC56C
+.media
+  +xl
+    background-color: white
+  +lg
+    background-color: #F2F1F1
+  +md
+    background-color: #FF5959
+  +sm
+    background-color: #003A6F
+  +xs
+    background-color: #6EC5E9
+  +xxs
+    background-color: #FFC56C

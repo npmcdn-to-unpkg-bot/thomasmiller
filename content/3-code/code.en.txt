@@ -1,0 +1,43 @@
+Title: Code
+
+----
+
+Text: 
+
+----
+
+Languages: These are the main languages I use. I use HTML daily of course, and sometimes tried out the JADE preprocessor, however didn't like it that much. For CSS, I use modern css3 standards, using Sass as my preprocessor of choice. I use javascript for all the user interactions, sometimes using javascript based APIs. I often use jQuery as a js library, however lately I have been trying to avoid it, to harden my vanilla javascript skills. As for backend language, I use php all the time, mostly for templating using php-based content management systems.
+
+----
+
+Cms: WordPress is the most used CMS out there, I built quite a few websites with it. However, I have recently discovered a flat-file based CMS called Kirby which I have fallen in love with. It is really practicle to use, to customize, and it's really fast. I use it in most of my new projects, as long as Wordpress doesn't fit the client's needs better. I have also worked on lots of Joomla websites, mostly older websites. I really dislike Joomla, but I have decent knowledge about the CMS.
+
+----
+
+Workflow: 
+
+These are my regular tools that I use every day: 
+- Git for version control
+- Gulp, with browsersync and a few other node modules for fast development
+- Sass, a great css preprocessor.
+- Vanilla js and jquery.
+- Bootstrap, or more recently Susy grid for responsive web design
+
+----
+
+Tools: I mainly use Sketch for design work, image editing and other stuff. I love how easy it is to export assets from it. I also know Photoshop pretty well, by the way you can checkout an album I'm making <a href="https://www.facebook.com/profile.php?id=666649474&sk=photos&collection_token=666649474%3A2305272732%3A69&set=a.10153377790284475.1073741825.666649474&type=3" target="_blank">here</a>. And as a web developer, I work on my macbook of course.
+
+----
+
+Ecommerce: I haven't done much Ecommerce work yet. However, I have done a couple using the WP Woocommerce plugin, which is fine for creating basic online shops. The biggest Ecommerce project I built was <a href="http://whiskytrain.ch" target="_blank">Whisky Train</a>, which had over 400 tickets sold within a couple hours.
+
+----
+
+Future: 
+
+My two biggest interests for my future as a web developer are animations and interactions. I already can use css animations pretty well, however I want to learn how to use the Greensock js framework better, as well as Snapsvg for deeper svg animations
+I also want to keep growing as a javascript developer and learn to use a framework. I think I will take a step into react in the near future, as well as start writing ES6, the new version of javascript.
+
+----
+
+Intro: I need to write an intro here.

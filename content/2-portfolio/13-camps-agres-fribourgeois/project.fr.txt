@@ -1,0 +1,25 @@
+Title: Camps Agrès Fribourgeois
+
+----
+
+Urlname: campsfr.com
+
+----
+
+Theurl: http://campsfr.com
+
+----
+
+Text: A small website I made last year with a friend.
+
+----
+
+Key: Wordpress, Responsive, Divi Theme
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 0

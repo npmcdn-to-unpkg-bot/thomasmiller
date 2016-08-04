@@ -1,0 +1,111 @@
+.menu-open
+  .content-wrapper
+    position: fixed
+
+  .mobile-menu-wrapper 
+    transform: translateX(0)
+
+.mobile-menu-wrapper
+  z-index: 3
+  transition: all 0.25s ease-in-out
+  position: fixed
+  transform: translateX(100%)
+  background-color: $orange
+  height: 100%
+  width: 100%
+.black-header
+  height: 80px
+  width: 100%
+  background-color: $black
+  #logo-tm
+    padding-top: 25px
+    padding-left: 30px
+  // z-index: -1000
+// #logo-tm
+  // z-index: 100
+ul.mobilemenu
+  padding-top: 40px
+  padding-right: 10%
+  padding-left: 10%
+  li
+    border-bottom: 1px solid $white
+    transition: all 0.2s ease-in-out
+    &:hover
+      background-color: $orangevl
+      a
+        color: $bluel
+    a
+      font-family: $sofiabold
+      transition: all 0.2s ease-in-out
+      padding: 15px 0px 10px 5px
+      font-size: 30px
+      line-height: 30px
+      color: $white
+      font-weight: 400
+      letter-spacing: 2px
+      border-bottom: none
+      text-transform: uppercase
+      display: block
+      height: 100%
+  li.active
+    background-color: $orangevl
+    a
+      color: $blue
+  li.activ
+        display: none
+
+// =====================================================
+// Hamburger menu animation
+// =====================================================
+$bar-width: 45px
+$bar-height: 4px
+$bar-spacing: 13px
+#mobile-menu-trigger
+  display: none
+  position: absolute
+  top: 25px
+  // left: 0px
+  right: 25px
+  bottom: 0px
+  // margin: auto
+  z-index: 100
+  width: $bar-width
+  height: $bar-height + $bar-spacing*2
+  cursor: pointer
+  +xs
+    display: block
+.menu-open
+  #mobile-menu-trigger
+    display: block
+.bar,
+.bar::after,
+.bar::before 
+  width: $bar-width
+  height: $bar-height
+  background: $white
+.bar 
+  position: relative
+  transform: translateY($bar-spacing)
+  transition: all 0ms 300ms
+  &.animate 
+    background: rgba(255, 255, 255, 0);
+.bar:before 
+  content: ""
+  position: absolute
+  left: 0
+  bottom: $bar-spacing
+  transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+.bar:after 
+  content: ""
+  position: absolute
+  left: 0
+  top: $bar-spacing
+  transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+.bar.animate:after 
+  top: 0
+  transform: rotate(45deg)
+  transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);
+.bar.animate:before 
+  bottom: 0
+  transform: rotate(-45deg)
+  transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);

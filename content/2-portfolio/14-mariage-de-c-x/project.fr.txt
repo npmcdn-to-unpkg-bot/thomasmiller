@@ -1,0 +1,25 @@
+Title: Mariage de C & X
+
+----
+
+Urlname: clemence-xavier.ch
+
+----
+
+Theurl: http://clemence-xavier.ch
+
+----
+
+Text: A website I'm making for a friend's wedding. He wishes not to make too make publicity about it, you need a password to enter.
+
+----
+
+Key: Kirby
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 0

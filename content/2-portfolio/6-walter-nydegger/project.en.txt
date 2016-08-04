@@ -1,0 +1,25 @@
+Title: Walter Nydegger
+
+----
+
+Urlname: nydegger.testrange.net
+
+----
+
+Theurl: http://nydegger.testrange.net/
+
+----
+
+Text: A new website I'm setting up for Walter Nydegger AG in Giffers. It is based off of a design in webflow, and was very quickly setup. It is currently still in development
+
+----
+
+Key: Kirby, Masonry, Mapboxjs
+
+----
+
+Dev: 1
+
+----
+
+Macmac: 1

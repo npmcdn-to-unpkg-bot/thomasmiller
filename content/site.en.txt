@@ -1,0 +1,17 @@
+Title: Thomas Miller
+
+----
+
+Author: Thomas Miller
+
+----
+
+Description: My name is Thomas Miller, I come from Switzerland and this is my portfolio.
+
+----
+
+Keywords: Thomas Miller,Thomas,Miller,Meuss,Bulle,Développeur,Site web,Suisse,Switzerland,Developer,Frontend Developer,Portfolio,Gruyères
+
+----
+
+Copyright: © (date: Year) thomasmiller.ch

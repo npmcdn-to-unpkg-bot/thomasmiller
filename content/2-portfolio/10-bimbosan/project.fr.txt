@@ -1,0 +1,25 @@
+Title: Bimbosan
+
+----
+
+Urlname: bimbosan.ch
+
+----
+
+Theurl: http://bimbosan.ch
+
+----
+
+Text: Bimbosan is a baby food company, we rebuilt their entire website (previously on joomla) with WordPress.
+
+----
+
+Key: Wordpress, Responsive
+
+----
+
+Dev: 1
+
+----
+
+Macmac: 1

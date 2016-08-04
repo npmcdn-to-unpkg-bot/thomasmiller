@@ -1,0 +1,25 @@
+Title: Whisky Train
+
+----
+
+Urlname: whiskytrain.ch
+
+----
+
+Theurl: http://whiskytrain.ch
+
+----
+
+Text: The Whisky Train is an event that happens once-a-year, where whisky lovers take a trip on a train and drink whisky. It's an awesome idea! The project was built with WordPress and Woocommerce. We sold all the tickets in a couple hours, it was pretty stressful! But I'm looking forward to setting up the store again this year.
+
+----
+
+Key: WordPress, Woocommerce
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 1

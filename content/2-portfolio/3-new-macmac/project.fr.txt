@@ -1,0 +1,25 @@
+Title: New Macmac
+
+----
+
+Urlname: new-macmac.testrange.net
+
+----
+
+Theurl: http://new-macmac.testrange.net
+
+----
+
+Text: This will be the future website of macmac ltd. It is currently in development, it will be a portfolio of macmac's biggest projects. The design is awesome, and the custom project filtering was fun to do.
+
+----
+
+Key: Kirby CMS, javascript
+
+----
+
+Dev: 1
+
+----
+
+Macmac: 1

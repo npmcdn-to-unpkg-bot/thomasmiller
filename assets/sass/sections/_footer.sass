@@ -1,0 +1,56 @@
+.footer
+  height: 60px
+  padding-top: 10px
+  padding-bottom: 10px
+  background: linear-gradient($oranged, $orange)
+  width: 100%
+  display: flex
+  align-items: center
+  color: $white
+  .footer-inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+  .footer-left
+    font-size: 14px
+  .footer-right
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 250px
+    .footer-phone
+      font-size: 14px
+  .icons
+    display: flex
+    justify-content: space-between
+    width: 120px
+    align-items: center
+    .icon
+      position: relative
+      display: flex
+      svg
+        display: inline
+        height: 25px
+        width: 25px
+        .fillme
+          transition: all 0.15s ease-in-out
+        .fillme
+          fill: $white
+        .polygon
+          fill: $white
+      a
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+    .icon.iconhovered
+      #email
+        .fillme
+          fill: $bluevd!important
+      #linkedin
+        .fillme
+          fill: #0077b5!important
+      #github
+        .fillme
+          fill: $black!important

@@ -1,0 +1,25 @@
+Title: Kaeserei
+
+----
+
+Urlname: kaeserei.testrange.net
+
+----
+
+Theurl: http://kaeserei.testrange.net
+
+----
+
+Text: Un site web que j'ai développé chez macmac pour un restaurant à Morat. J'adore m'amuser avec le défilement de la page et les différents effets parallax. J'ai aussi mis en place un système de gestion des automatique en php une année à l'avance. Je me réjouis de finir ce projet, de le mettre en ligne et de le rendre adaptif. Et d'ailleurs je vous conseille ce restaurant, on y mange très bien!
+
+----
+
+Key: Parallax, Effets défilement, Kirby CMS, Mapboxgl, Multilingue
+
+----
+
+Dev: 1
+
+----
+
+Macmac: 1

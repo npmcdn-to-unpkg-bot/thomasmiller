@@ -1,0 +1,25 @@
+Title: CORE Partners
+
+----
+
+Urlname: core-partners.ch
+
+----
+
+Theurl: http://core-partners.ch
+
+----
+
+Text: A traditional website for a Tax Consulting Group based in Fribourg, Düdingen and Bern. This website was built with joomla a long time ago by another developer. I had to update it and make it responsive as best I could. #ihatejoomla.
+
+----
+
+Key: joomla
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 1

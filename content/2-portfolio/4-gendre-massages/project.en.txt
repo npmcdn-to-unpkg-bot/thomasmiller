@@ -1,0 +1,21 @@
+Title: Gendre massages
+
+----
+
+Urlname: gendremassages.ch
+
+----
+
+Theurl: http://gendremassages.ch
+
+----
+
+Text: A single-page website for an self-employed worker from la Tour-de-Trême, that offers different sorts of massages.
+
+----
+
+Key: Bootstrap
+
+----
+
+Dev: 0

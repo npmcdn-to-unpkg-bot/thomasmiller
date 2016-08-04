@@ -1,0 +1,63 @@
+.pics
+  .top
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative 
+    h1, h2, h3
+      margin: 0px
+    h1
+      font-size: 40px
+      text-align: center
+    h2
+      font-size: 34px
+      text-align: center
+      line-height: 35px
+      +xs
+        margin-bottom: 20px
+    h3
+      font-family: $sofialight
+      font-size: 22px
+      text-align: center
+    svg
+      position: absolute
+      top: 92px
+      height: 118px
+      left: 300px
+      +xl
+        left: 200px
+      +lg
+        left: 0px
+      +sm
+        display: none
+  .grid
+    background-color: $black
+  .grid-sizer
+    // height: 500px
+    // width: auto
+  .grid-item
+    padding: 0px
+    margin: 0px
+  .grid-sizer,
+  .grid-item
+    width: 20%
+    +lg
+      width: 25%
+    +md
+      width: 33,33333%
+    +sm
+      width: 50%
+    +xs
+      width: 100%
+    // height: 500px
+    img
+      height: auto
+      width: 100%
+      // height: 500px
+      // width: auto
+      // display: inline
+  .fancybox-skin
+    .fancybox-nav
+      span
+        transition: all 0.25s ease

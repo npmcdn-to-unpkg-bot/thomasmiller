@@ -1,0 +1,13 @@
+Title: Home
+
+----
+
+Text: Intro text!
+
+----
+
+Contact: 
+
+J'ai créé ce site web dans le but d'avoir un portfolio à montrer pour de futurs clients ou employeurs.
+
+**Je suis actuellement à la recherche de nouveaux projets web en tant que freelancer.** Avez-vous une idée, un projet, une entreprise que vous voulez mettre en ligne? Je serai ravi d'en discuter avec vous.

@@ -1,0 +1,129 @@
+// ====================================
+// General typography settings
+// ====================================
+//font-face rules
+@font-face
+  font-family: Neutra-Display-Titling;
+  src: url("../fonts/Neutra-Display-Titling.ttf")
+@font-face
+  font-family: Neutra-Display-Bold;
+  src: url("../fonts/Neutra-Display-Bold_32090.ttf")
+@font-face
+  font-family: Neutra-Display-Light;
+  src: url("../fonts/Neutra-Display-Light_32093.ttf")
+@font-face
+  font-family: ApexNewBold;
+  src: url("../fonts/ApexNewBold.otf")
+@font-face
+  font-family: ApexNewBook;
+  src: url("../fonts/ApexNewBook.otf")
+@font-face
+  font-family: ApexNewLight;
+  src: url("../fonts/ApexNewLight.otf")
+@font-face
+  font-family: Sofia Pro Black Italic;
+  src: url("../fonts/Sofia Pro Black Italic.otf")
+@font-face
+  font-family: Sofia Pro Black;
+  src: url("../fonts/Sofia Pro Black.otf")
+@font-face
+  font-family: Sofia Pro Bold Italic;
+  src: url("../fonts/Sofia Pro Bold Italic.otf")
+@font-face
+  font-family: Sofia Pro Bold;
+  src: url("../fonts/Sofia Pro Bold.otf")
+@font-face
+  font-family: Sofia Pro Extra Light Italic;
+  src: url("../fonts/Sofia Pro Extra Light Italic.otf")
+@font-face
+  font-family: Sofia Pro Extra Light;
+  src: url("../fonts/Sofia Pro Extra Light.otf")
+@font-face
+  font-family: Sofia Pro Italic;
+  src: url("../fonts/Sofia Pro Italic.otf")
+@font-face
+  font-family: Sofia Pro Light Italic;
+  src: url("../fonts/Sofia Pro Light Italic.otf")
+@font-face
+  font-family: Sofia Pro Light;
+  src: url("../fonts/Sofia Pro Light.otf")
+@font-face
+  font-family: Sofia Pro Medium;
+  src: url("../fonts/Sofia Pro Medium.otf")
+@font-face
+  font-family: Sofia Pro Medium Italic;
+  src: url("../fonts/Sofia Pro Medium Italic.otf")
+@font-face
+  font-family: Sofia Pro Regular;
+  src: url("../fonts/Sofia Pro Regular.otf")
+@font-face
+  font-family: Sofia Pro Semi Bold Italic;
+  src: url("../fonts/Sofia Pro Semi Bold Italic.otf")
+@font-face
+  font-family: Sofia Pro Semi Bold;
+  src: url("../fonts/Sofia Pro Semi Bold.otf")
+@font-face
+  font-family: Sofia Pro Ultra Light Italic;
+  src: url("../fonts/Sofia Pro Ultra Light Italic.otf")
+@font-face
+  font-family: Sofia Pro Ultra Light;
+  src: url("../fonts/Sofia Pro Ultra Light.otf")
+.main
+  font-family: $sofiaregular
+h1,
+h2,
+h3,
+h4,
+h5
+  font-family: $sofiabold
+  text-transform: uppercase
+body
+  a
+    text-decoration: none
+    color: $orange
+    &:hover
+      text-decoration: none
+      color: $orangel
+ul
+  list-style-type: none
+li, a, span, p, div
+  font-family: $sofialight
+body
+  p, li
+    font-size: 18px
+    line-height: 24px
+    font-family: $sofiaextralight
+  strong
+    font-family: $sofiabold
+  
+.link
+  color: $white
+  background-color: $orange
+  padding: 10px 15px
+  // border-radius: 8px
+  font-family: $sofiabold
+  text-transform: uppercase
+  text-align: center
+  font-size: 18px
+  line-height: 18px
+  display: inline-block
+  border: 1px solid transparent
+  transition: all 0.2s ease-in-out
+  position: relative
+  svg
+    width: auto
+    height: 18px
+    position: absolute
+    top: 9px
+    transition: all 0.2s ease-in-out
+    padding-left: 20px
+    transform: translateX(20px)
+    opacity: 0
+    path
+      fill: $orange
+  &:hover
+    color: $orange
+    background-color: $white
+    svg
+      transform: translateX(0px)
+      opacity: 1

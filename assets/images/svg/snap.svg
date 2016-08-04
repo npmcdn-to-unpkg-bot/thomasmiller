@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="90" viewBox="0 0 54 90">
+  <defs>
+    <linearGradient id="a" x1="50%" x2="50%" y1="-352.926%" y2="96.718%">
+      <stop stop-color="#002E3B" offset="0%"/>
+      <stop stop-color="#002639" offset="100%"/>
+    </linearGradient>
+    <linearGradient id="b" x1="50%" x2="50%" y1="-2.808%" y2="428.759%">
+      <stop stop-color="#002E3B" offset="0%"/>
+      <stop stop-color="#002639" offset="100%"/>
+    </linearGradient>
+    <radialGradient id="c" cx="16.423%" cy="143%" r="295.571%" fx="16.423%" fy="143%">
+      <stop stop-color="#00BC85" offset="0%"/>
+      <stop stop-color="#149D91" offset="100%"/>
+    </radialGradient>
+    <radialGradient id="d" cx="16.423%" cy="-43%" r="357.004%" fx="16.423%" fy="-43%">
+      <stop stop-color="#00BC85" offset="0%"/>
+      <stop stop-color="#149D91" offset="100%"/>
+    </radialGradient>
+    <radialGradient id="e" cx="11.467%" cy="-40.458%" r="343.189%" fx="11.467%" fy="-40.458%">
+      <stop stop-color="#004473" offset="0%"/>
+      <stop stop-color="#00345F" offset="100%"/>
+    </radialGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path fill="url(#a)" d="M13.807 69.687L.023 76.457l26.75 13.08L53.6 76.415 39.78 69.55l-13.014 6.488"/>
+    <path fill="url(#b)" d="M12.105 20.713v-.004l14.695-7.2 14.7 7.195 12.09-7.587L26.793 0 0 13.12v.01l12.095 7.588.01-.005"/>
+    <path fill="url(#c)" d="M.033 62.963l13.222-6.5 13.6 6.76L.033 76.473"/>
+    <path fill="url(#d)" d="M41.333 20.974v21.26L26.55 49.496l13.595 6.823 13.235-6.5v-36.7l-12.047 7.59v.26z"/>
+    <path fill="url(#e)" d="M53.59 62.918l-41.487-20.73V20.715L0 13.13v36.647l53.59 26.65"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+Title: Veveyse Parallax
+
+----
+
+Urlname: /veveyse
+
+----
+
+Theurl: http://thomasmiller.ch/veveyse/index.html
+
+----
+
+Text: This was a small project I made a long time ago. I was starting to get into photoshop so I drew the view of the mountains from my house. Afterwards, I decided to have a try at parallaxing the whole thing. And yes, I totally stole the idea from <a href=" http://www.firewatchgame.com/" target="_blank">this website</a>.
+
+----
+
+Key: Parallax, Photoshop
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 0

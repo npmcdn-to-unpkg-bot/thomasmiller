@@ -1,0 +1,17 @@
+Title: Big Cow Restaurant
+
+----
+
+Urlname: meuss.ch/bigcow
+
+----
+
+Theurl: http://meuss.ch/bigcow/
+
+----
+
+Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta lobortis dignissim. Maecenas scelerisque dapibus faucibus. Phasellus auctor sollicitudin orci, non pulvinar ligula consequat quis. Suspendisse a blandit quam. Morbi ac auctor nibh. Morbi risus risus, sagittis quis blandit ac, mattis a purus. Nulla pretium turpis sed nulla aliquet, eget vestibulum nibh ultricies. Nam rutrum tortor laoreet magna semper imperdiet quis commodo nisi. Cras et turpis rhoncus, faucibus metus at, suscipit mi.
+
+----
+
+Key: Parallax, Experiments

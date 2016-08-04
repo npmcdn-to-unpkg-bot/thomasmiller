@@ -1,0 +1,25 @@
+Title: Kaeserei
+
+----
+
+Urlname: kaeserei.testrange.net
+
+----
+
+Theurl: http://kaeserei.testrange.net
+
+----
+
+Text: This is a website I've been working on at macmac ltd. I've had a lot of fun playing with scroll effects and parallax. I also setup an automatic menu scheduling a year in advance. I'm looking forward to finishing it and making it responsive.
+
+----
+
+Key: Parallax, Scroll Effects, Kirby CMS, Mapboxgl, Multilingual
+
+----
+
+Dev: 1
+
+----
+
+Macmac: 1

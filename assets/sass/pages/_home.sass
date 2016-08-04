@@ -1,0 +1,293 @@
+.home
+  // TOP SECTION
+  .top
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    h3, h1, h6
+      color: $black
+      display: inline
+      // position: absolute
+      margin: 0px
+    h3
+      margin-top: 40px
+      font-size: 36px
+      // top: 80px
+      // left: 45vw
+    h1
+      font-size: 48px
+      // top: 120px
+      // left: 50vw
+    h6
+      font-family: $sofialight
+      font-size: 22px
+      // top: 170px
+      // left: 67vw
+    img
+      width: 140px
+      border-radius: 50%
+      position: absolute
+      bottom: -70px
+      left: 50%
+      transform: translate(-50%, 0%)
+      +sm
+        display: none
+// INTRO SECTION
+.home
+  .intro
+    padding-top: 30px
+    padding-bottom: 30px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .icons
+      display: flex
+      justify-content: space-between
+      width: 140px
+      margin-left: 50px
+      .icon
+        position: relative
+        svg
+          display: inline
+          height: 35px
+          width: 35px
+          .fillme,
+          .red,
+          .red2
+            transition: all 0.15s ease-in-out
+          path.fillme
+            fill: $black
+          path.red
+            fill: $black
+          path.f
+            fill: $white
+        a
+          position: absolute
+          top: 0
+          right: 0
+          bottom: 0
+          left: 0
+      .icon.iconhovered
+        #gmail
+          .red
+            fill: #D54B3D!important
+          .red2
+            fill: #D72B27!important
+        #email
+          .fillme
+            fill: $orangevd!important
+        #linkedin
+          .fillme
+            fill: #0077b5!important
+        #github
+          .fillme
+            fill: $orangevd!important
+        #facebook
+          .fillme
+            fill: #3B5998!important
+    .webdev
+      display: flex
+      align-content: center
+      span
+        font-family: $sofiabold
+        text-transform: uppercase
+        font-size: 20px
+      img
+        margin-left: 10px
+        margin-top: -3px
+    a
+      padding: 3px 10px
+      font-family: $neutra
+      font-size: 18px
+// PROJECTS SECTIONS
+.home
+  .featured-outer
+    background-color: $greyvl
+    background-image: url(../images/engadine.jpg)
+    background-size: cover
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-position: center top
+    // background-attachment: fixed
+    padding: 70px 15px 70px 15px
+    .featured-title
+      h2
+        text-transform: uppercase
+        font-family: $sofiabold
+        font-size: 20px
+        margin-bottom: 40px
+        letter-spacing: 1px
+    .featured
+      display: flex
+      justify-content: space-between
+      align-items: center
+      +md
+        flex-direction: column
+      .featured-project
+        position: relative
+        float: left
+        min-width: 230px
+        max-width: 360px
+        min-height: 230px
+        width: 100%
+        color: $white
+        text-align: center
+        line-height: 1.4em
+        background-color: rgba(5, 70, 109, 0.5)
+        font-size: 16px
+        +md
+          margin-bottom: 40px
+        &:hover,
+        .hover
+          img
+            width: 60%
+            top: -10%
+          figcaption h2,
+          figcaption p
+            transform: translateY(0px)
+            opacity: 1
+        *
+          transition: all 0.25s ease
+        img
+          position: absolute
+          top: 0%
+          left: 50%
+          opacity: 1
+          width: 100%
+          transform: translate(-50%, 0%)
+        figcaption
+          position: absolute
+          width: 100%
+          top: 50%
+          padding: 20px 30px
+
+        h2,
+        p
+          margin: 0
+          width: 100%
+          transform: translateY(-20px)
+          opacity: 0
+        h2
+          text-transform: uppercase
+          font-family: $sofiabold
+          font-size: 20px
+          margin-bottom: 5px
+          letter-spacing: 2px
+        a
+          position: absolute
+          top: 0
+          bottom: 0
+          left: 0
+          right: 0
+          z-index: 1
+    .see-more
+      padding-top: 40px
+      +md
+        padding-top: 0px
+        text-align: center
+      a
+        width: 360px
+        text-align: center
+        border-radius: 0px
+        float: right
+        +md
+          float: none
+// About
+.home
+  .about
+    background-color: $black
+    color: white
+    >.container
+      padding-top: 70px
+      padding-bottom: 70px
+      display: flex
+      align-items: center
+    h6
+      margin: 0px 0px 1em 0px
+      text-transform: uppercase
+      font-family: $sofiabold
+      font-size: 20px
+      margin-bottom: 20px
+      letter-spacing: 1px
+    .pict
+      height: 300px
+      background-image: url(../images/me_reflection_popart.jpg)
+      background-size: cover
+      background-position: center center
+    ul
+      li
+        &::before
+          content: '#'
+          color: $orange
+          font-family: $sofiaextralight
+          margin-right: 13px
+    a
+      padding: 10px 60px
+// Map
+#map
+  min-height: 440px
+  .gm-style-cc
+    &:last-of-type
+      // display: none
+  .gm-bundled-control
+    >.gmnoprint
+      display: none
+    .gm-svpc
+      display: none
+  .gmnoprint .gm-style-mtc
+    display: none
+
+
+// Contact
+.home
+  .contact
+    min-height: 250px
+    padding-top: 70px
+    padding-bottom: 70px
+    text-align: center
+    h2
+      margin: 0px 0px 1em 0px
+      text-transform: uppercase
+      font-family: $sofiabold
+      font-size: 20px
+      margin-bottom: 20px
+      letter-spacing: 1px
+    .message
+      a
+        color: $white
+        background-color: $orange
+        padding: 10px 15px
+        // border-radius: 8px
+        font-family: $sofiabold
+        text-transform: uppercase
+        text-align: center
+        font-size: 18px
+        line-height: 18px
+        display: inline-block
+        border: 1px solid transparent
+        transition: all 0.2s ease-in-out
+        position: relative
+        padding-left: 50px
+        svg
+          width: auto
+          height: 20px
+          position: absolute
+          left: 12px
+          top: 9px
+          // position: absolute
+          // top: 9px
+          transition: all 0.2s ease-in-out
+          padding-right: 20px
+          // transform: translateX(20px)
+          // opacity: 0
+          .fillme
+            transition: all 0.2s ease-in-out
+            fill: $white
+        &:hover
+          color: $orange
+          background-color: $white
+          .fillme
+            fill: $orange
+            // transform: translateX(0px)
+            // opacity: 1

@@ -1,0 +1,155 @@
+#loader
+  position: absolute
+  top: 80px
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 999
+  background: $white
+  opacity: 1
+  transition: opacity 0.5s ease
+
+.page-wrapper
+  opacity: 0
+  transition: opacity 0.6s
+  transition-delay: 0.5s
+
+// =====================================================
+// Loading animation https://codepen.io/yusufbkr/pen/MazqVr
+// =====================================================
+#loader
+  width: 100%
+  height: 100vh
+  position: fixed
+  top: 0
+  left: 0
+  &:before, &:after, .dot, .outline
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    border-radius: 50%
+  .dot
+    width: 96px
+    height: 96px
+    background: $orange
+    animation: in 2s linear infinite
+    z-index: 2
+  &:before
+    content: ""
+    width: 0px
+    height: 0px
+    background: $orangel
+    animation: out1 2s linear infinite
+  &:after
+    content: ""
+    width: 0px
+    height: 0px
+    background: $orange
+    animation: out2 2s linear infinite
+  .outline
+    width: 120px
+    height: 120px
+    z-index: 2
+    span
+      width: 68px
+      height: 68px
+      transform-origin: 100% 100%
+      transform: rotate(45deg) skewX(80deg)
+      overflow: hidden
+      position: absolute
+      bottom: 50%
+      right: 50%
+      animation: outline 2s linear infinite
+      &:before
+        content: ""
+        display: block
+        border: solid 5px $orange
+        width: 200%
+        height: 200%
+        border-radius: 50%
+        transform: skewX(-80deg)
+        animation: outlineBefore 2s linear infinite
+
+@keyframes outline
+  0%
+    transform: rotate(0deg) skewX(80deg)
+  25%
+    transform: rotate(500deg) skewX(15deg)
+  50%
+    transform: rotate(1000deg) skewX(40deg)
+  75%
+    transform: rotate(1500deg) skewX(60deg)
+  100%
+    transform: rotate(2160deg) skewX(80deg)
+
+@keyframes outlineBefore
+  0%
+    transform: skewX(-80deg)
+    border: solid 5px $black
+  25%
+    transform: skewX(-15deg)
+    border: solid 5px $black
+  49%
+    border: solid 5px $black
+  50%
+    transform: skewX(-40deg)
+    border: solid 5px $black
+  75%
+    transform: skewX(-60deg)
+    border: solid 5px $black
+  100%
+    transform: skewX(-80deg)
+    border: solid 5px $black
+@keyframes in
+  0%
+    width: 144px
+    height: 144px
+    background: $white
+  40%
+    width: 0px
+    height: 0px
+    background: $whited
+  41%
+    width: 0px
+    height: 0px
+    background: $orangel
+  50%
+    width: 144px
+    height: 144px
+    background: $black
+  90%
+    width: 0px
+    height: 0px
+    background: $white
+  91%
+    width: 0px
+    height: 0px
+    background: $orange
+  100%
+    width: 144px
+    height: 144px
+    background: $orange
+@keyframes out1
+  0%
+    width: 0px
+    height: 0px
+  30%
+    width: 120vw
+    height: 120vw
+  100%
+    width: 120vw
+    height: 120vw
+@keyframes out2
+  0%
+    width: 0px
+    height: 0px
+  30%
+    width: 0px
+    height: 0px
+  60%
+    width: 120vw
+    height: 120vw
+  100%
+    width: 120vw
+    height: 120vw
