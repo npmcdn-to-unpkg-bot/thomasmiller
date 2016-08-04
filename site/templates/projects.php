@@ -44,11 +44,11 @@
                     <div class="desc-middle">
 
                       <?php if ($project->macmac() == '1'){?>
-                        <span class="macmac">built at macmac ltd</span>
+                        <span class="macmac"><?php echo l::get('built-at-macmac-ltd') ?></span>
                       <?php }
 
                       if ($project->dev() == '1'){?>
-                        <span class="dev">.. in development</span>
+                        <span class="dev">.. <?php echo l::get('in-development') ?></span>
                       <?php } ?>
 
                     </div>
