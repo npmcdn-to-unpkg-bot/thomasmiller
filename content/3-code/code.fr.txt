@@ -6,34 +6,82 @@ Text:
 
 ----
 
-Languages: These are the main languages I use. I use HTML daily of course, and sometimes tried out the JADE preprocessor, however didn't like it that much. For CSS, I use modern css3 standards, using Sass as my preprocessor of choice. I use javascript for all the user interactions, sometimes using javascript based APIs. I often use jQuery as a js library, however lately I have been trying to avoid it, to harden my vanilla javascript skills. As for backend language, I use php all the time, mostly for templating using php-based content management systems.
+Languages: 
+
+###HTML / CSS
+Ce sont les langues qui contrôle la disposition d'une page web. En tant que frontender, je les utilise tous les jours: le markup html pour la structure des pages, le css pour les rendre jolies.
+
+###Javascript
+C'est le code qui tourne dans le navigateur qui rend le tout interactif. J'utilise le javascript depuis un moment, parfois avec la librairie jQuery. Je suis actuellement en train de me plonger dans l'apprentissage d'un framework js à part entière, Vue.js et/ou React.
+
+###PHP
+J'utilise essentiellement le PHP pour le code côté serveur. Il me sert surtout pour le templating des pages avec WP ou Kirby, ainsi que d'autres tâches du serveur telles qu'envoyer des mails par exemple.
 
 ----
 
-Cms: WordPress is the most used CMS out there, I built quite a few websites with it. However, I have recently discovered a flat-file based CMS called Kirby which I have fallen in love with. It is really practicle to use, to customize, and it's really fast. I use it in most of my new projects, as long as Wordpress doesn't fit the client's needs better. I have also worked on lots of Joomla websites, mostly older websites. I really dislike Joomla, but I have decent knowledge about the CMS.
+Cms: 
+
+Les systèmes de gestion de contenu – (CMS en anglais) – sont des frameworks qui font exactement ce que leur nom indique: ils aident à gérer le contenu d'un site web. Il y a un grand nombre de CMS différents sur le web.
+
+###Wordpress
+WordPress est le CMS le plus utilisé sur le web. C'est un très bon outil que j'ai utilisé dans plusieurs projets. S'il est bien configuré, il permet aux clients qui ne connaissent rien au web de gérer leur propre site web. Il y a de nombreux plugins disponibles qui permettent de faire ce que l'on veut rapidement. Mais WP a également quelques défauts qui me poussent parfois à l'éviter: les sites peuvent être très lents, c'est souvent de l'overkill, et surtout la sécurité laisse à désirer. Il faut constamment faire des mise-à-jour du code/des plugins, faire des backups et mettre en place des systèmes de sécurité car les sites WP est tout le temps la cible préférée des hackers.
+
+###Kirby
+Kirby est mon CMS préféré actuellement. Il n'y a pas de base de données, tout est enregistré dans différents fichiers en utilisant la syntaxe Markup. Ça donne des sites web super rapides! J'essaie d'utiliser Kirby dans un maximum de mes nouveaux projets.
+
+###Joomla
+Avec mon travail à Marly, j'ai dû m'habituer à utiliser Joomla pour mettre à jour et éditer des sites web, pour la plupart créés il y a bien quelques années. Travailler avec Joomla est assez pénible, j'ai plus l'impression qu'il faut se battre pour gérer le contenu plus qu'autre chose. Je ne conseille pas Joomla dans de nouveaux projets. Beurk.
 
 ----
 
 Workflow: 
 
-These are my regular tools that I use every day: 
-- Git for version control
-- Gulp, with browsersync and a few other node modules for fast development
-- Sass, a great css preprocessor.
-- Vanilla js and jquery.
-- Bootstrap, or more recently Susy grid for responsive web design
+Voici les outils que j'utilise régulièrement, qui rendent les sessions de codage plaisantes et efficientes.
+
+###Git
+Le version control est nécessaire pour l'élaboration du code en général, pas seulement pour le web. Le VCS le plus connu est Git, que j'utilise lors de tous les projets.
+
+###jQuery
+jQuery est une librairie javascript énormément utilisée encore aujourd'hui. Je l'utilise fréquemment, il permet de mettre en place des choses rapidement avec une API sympa.
+
+###Gulp
+Gulp est un build system que j'utilise pour effectuer des tâches automatiquement. Avec différents node modules, Gulp peut minifier, rassembler le css/js. Un autre module très intéressant est Browsersync, qui recharge les pages dans différents navigateurs ou appareils lorsque je sauvegarde un fichier en local.
+
+###Sass
+J'utilise Sass comme processeur css principal.
+
+###Bootstrap et Susy
+Je me sers de Bootstrap pour rendre les pages rapidement adaptives.  Vu que je n'exploite que du système de grille de Bootstrap, je me suis récemment intéressé à utiliser plutôt Susy.
 
 ----
 
-Tools: I mainly use Sketch for design work, image editing and other stuff. I love how easy it is to export assets from it. I also know Photoshop pretty well, by the way you can checkout an album I'm making <a href="https://www.facebook.com/profile.php?id=666649474&sk=photos&collection_token=666649474%3A2305272732%3A69&set=a.10153377790284475.1073741825.666649474&type=3" target="_blank">here</a>. And as a web developer, I work on my macbook of course.
+Tools: 
+
+###Sketch
+Sketch est un programme de design pour Mac. Je m'en sers pour créer des prototypes, pour exporter des svg/png et pour créer des layouts pour différentes tailles d'écrans lors de la planification d'un projet.
+
+###Photoshop
+J'ai des bonnes connaissances de ce logiciel d'édition d'image. Je l'utilise beaucoup pour retoucher des photos prise avec mon Sony A6000, ou encore pour modifier des images trouvées sur le web.
+
+###OSX
+En tant que développeur frontend, je travaille bien sûr sur Mac. iMac au bureau, Macbook Pro à la maison. Ceci dit, je suis aussi un gamer alors je ne pourrais pas me passer d'avoir également une tour Windows à la maison.
 
 ----
 
-Ecommerce: I haven't done much Ecommerce work yet. However, I have done a couple using the WP Woocommerce plugin, which is fine for creating basic online shops. The biggest Ecommerce project I built was <a href="http://whiskytrain.ch" target="_blank">Whisky Train</a>, which had over 400 tickets sold within a couple hours.
+Ecommerce: 
+
+###Woocommerce
+J'ai mis en place quelques projets Ecommerce en utilisant WP avec le plugin Woocommerce, qui est suffisant pour des shops en ligne pas trop complexes. Le plus important projet que j'ai créé est (link: http://whiskytrain.ch text: Whisky Train), qui vend chaque année des centaines de billets en quelques heures.
 
 ----
 
 Future: 
 
-My two biggest interests for my future as a web developer are animations and interactions. I already can use css animations pretty well, however I want to learn how to use the Greensock js framework better, as well as Snapsvg for deeper svg animations
-I also want to keep growing as a javascript developer and learn to use a framework. I think I will take a step into react in the near future, as well as start writing ES6, the new version of javascript.
+###Mes futurs intérets
+Le web ne cesse jamais d'évoluer et de nouvelles technologies apparaîssent toutes les années/mois/semaines?... Il y a seulement quelques années, le responsive web design n'existait même pas. C'est pour ça que les développeurs web se doivent d'être un minimum à jour avec les nouvelles technologies ou frameworks. Je suis encore très motivé à en apprendre plus et continuer à acquérir des nouvelles compétences.
+
+En ce moment, je me suis fixer certains objectifs: en apprendre plus sur les animations et les interactions sur le web. Je veux donc apprendre à utiliser le framework Greensock ainsi que Snapsvg pour des animations svg plus complexes. Je veux également continuer à évoluer en tant que développeur javascript, utiliser la nouvelle version ES6 et NodeJS. Je veux également maitriser bientôt un des framework js qui domine: Vue, React ou Angular.
+
+----
+
+Intro: I need to write an intro here.
