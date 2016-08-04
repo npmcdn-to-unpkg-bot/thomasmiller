@@ -19,7 +19,7 @@ gulp.task('javascript', function(){
     gulp.src('assets/js/**/*.js')                           // Source: all .js files
     .pipe(plumber())                                        // Prevent pipe breaking if errors
     .pipe(concat('script.js'))                              // Concatenate into one file
-    //.pipe(uglify())                                         // Uglify the file (Comment this while in development)
+    //.pipe(uglify())                                         // Uglify the file
     .pipe(gulp.dest('assets/min'))                          // Destination folder
     .pipe(reload({stream:true}))                            // Reload the browser
 });
@@ -34,7 +34,7 @@ gulp.task('sass', function(){
     .pipe(plumber())                                        // Prevent pipe breaking if errors
     .pipe(sass())                                           // Compiles sass
     .pipe(autoprefixer('> 4%'))                             // Adds vendor prefixes to css
-    //.pipe(minify())                                         // Minify the css (Comment this while in development)
+    //.pipe(minify())                                         // Minify the css
     .pipe(gulp.dest('assets/min'))                          // Destination folder
     .pipe(reload({stream:true}))                            // Reload the browser
 });
