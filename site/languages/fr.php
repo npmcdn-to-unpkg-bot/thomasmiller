@@ -23,6 +23,8 @@ l::set(array(
 
   /* Portfolio page */
     'some-of-my-work' => 'Mes créations',
+    'built-at-macmac-ltd' => 'codé chez macmac AG',
+    'in-development' => 'en développement',
 
 
 
