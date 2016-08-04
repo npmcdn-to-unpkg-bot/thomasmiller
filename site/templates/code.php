@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->languages() ?></p>
+                    <?php echo $page->languages()->kirbytext() ?>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->cms() ?></p>
+                    <?php echo $page->cms()->kirbytext() ?>
                   </div>
                 </div>
               </div>
@@ -116,18 +116,18 @@
                 <div class="col-xs-12">
                   <div class="icons">
                     <?php echo $icon_git; ?>
-                    <?php echo $icon_bootstrap; ?>
-                    <?php echo $icon_susy; ?>
+                    <?php echo $icon_jquery; ?>
                     <?php echo $icon_gulp; ?>
                     <?php echo $icon_browsersync; ?>
                     <?php echo $icon_sass; ?>
                     <?php echo $icon_npm; ?>
-                    <?php echo $icon_jquery; ?>
+                    <?php echo $icon_bootstrap; ?>
+                    <?php echo $icon_susy; ?>
                   </div>
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->workflow()->kirbytext() ?></p>
+                    <?php echo $page->workflow()->kirbytext() ?>
                   </div>
                 </div>
               </div>
@@ -143,7 +143,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->tools()->html() ?></p>
+                    <?php echo $page->tools()->kirbytext() ?>
                   </div>
                 </div>
               </div>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->ecommerce() ?></p>
+                    <?php echo $page->ecommerce()->kirbytext() ?>
                   </div>
                 </div>
               </div>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-xs-12">
                   <div class="inner">
-                    <p><?php echo $page->future() ?></p>
+                    <?php echo $page->future()->kirbytext() ?>
                   </div>
                 </div>
               </div>
