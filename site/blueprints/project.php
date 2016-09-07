@@ -22,6 +22,9 @@ fields:
   key:
     label: Project Main Themes
     type: text
+  featured:
+    label: Featured?
+    type: checkbox
   dev:
     label: In development?
     type: checkbox

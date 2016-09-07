@@ -19,3 +19,11 @@ Key: Bootstrap, unslider, mapboxgl
 ----
 
 Dev: 0
+
+----
+
+Featured: 1
+
+----
+
+Macmac: 0

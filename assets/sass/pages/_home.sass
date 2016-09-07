@@ -5,25 +5,27 @@
     display: flex
     flex-direction: column
     align-items: center
+    +xs
+      height: 200px
+      justify-content: center
     h3, h1, h6
       color: $black
       display: inline
-      // position: absolute
       margin: 0px
+    h1
+      font-size: 48px
+      +xs
+        text-align: center
+        font-size: 30px
     h3
       margin-top: 40px
       font-size: 36px
-      // top: 80px
-      // left: 45vw
-    h1
-      font-size: 48px
-      // top: 120px
-      // left: 50vw
+      +xs
+        margin-top: 0px
+        font-size: 25px
     h6
       font-family: $sofialight
       font-size: 22px
-      // top: 170px
-      // left: 67vw
     img
       width: 140px
       border-radius: 50%
@@ -41,17 +43,28 @@
     display: flex
     justify-content: space-between
     align-items: center
+    flex-direction: row
+    +xs
+      flex-direction: column
     .icons
       display: flex
       justify-content: space-between
       width: 140px
       margin-left: 50px
+      margin-top: 0px
+      +xs
+        width: 100px
+        margin-left: 0px
+        margin-top: 12px
       .icon
         position: relative
         svg
           display: inline
           height: 35px
           width: 35px
+          +xs
+            height: 25px
+            width: 25px
           .fillme,
           .red,
           .red2
@@ -93,9 +106,13 @@
         font-family: $sofiabold
         text-transform: uppercase
         font-size: 20px
+        +xs
+          font-size: 14px
       img
         margin-left: 10px
         margin-top: -3px
+        +xs
+          margin-top: -7px
     a
       padding: 3px 10px
       font-family: $neutra
@@ -109,8 +126,9 @@
     background-attachment: fixed
     background-repeat: no-repeat
     background-position: center top
-    // background-attachment: fixed
     padding: 70px 15px 70px 15px
+    +xs
+      padding: 30px 15px 30px 15px
     .featured-title
       h2
         text-transform: uppercase
@@ -148,7 +166,7 @@
             transform: translateY(0px)
             opacity: 1
         *
-          transition: all 0.25s ease
+          @include transition
         img
           position: absolute
           top: 0%
@@ -224,6 +242,7 @@
           margin-right: 13px
     a
       padding: 10px 60px
+      display: inline-block
 // Map
 #map
   min-height: 440px
@@ -266,7 +285,7 @@
         line-height: 18px
         display: inline-block
         border: 1px solid transparent
-        transition: all 0.2s ease-in-out
+        @include transition
         position: relative
         padding-left: 50px
         svg
@@ -277,12 +296,12 @@
           top: 9px
           // position: absolute
           // top: 9px
-          transition: all 0.2s ease-in-out
+          @include transition
           padding-right: 20px
           // transform: translateX(20px)
           // opacity: 0
           .fillme
-            transition: all 0.2s ease-in-out
+            @include transition
             fill: $white
         &:hover
           color: $orange

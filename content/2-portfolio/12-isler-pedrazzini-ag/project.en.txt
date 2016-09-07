@@ -6,7 +6,7 @@ Urlname: islerpedrazzini.ch
 
 ----
 
-Theurl: http://islerpedrazzini.ch
+Theurl: http://isler.testrange.net
 
 ----
 
@@ -14,12 +14,16 @@ Text: Isler & Pedrazzini AG is a law firm based in Zürich. I built their new we
 
 ----
 
-Key: Kirby, Responsive
+Key: Kirby
 
 ----
 
-Dev: 0
+Dev: 1
 
 ----
 
 Macmac: 1
+
+----
+
+Featured: 1

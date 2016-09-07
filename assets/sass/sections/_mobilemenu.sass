@@ -29,14 +29,14 @@ ul.mobilemenu
   padding-left: 10%
   li
     border-bottom: 1px solid $white
-    transition: all 0.2s ease-in-out
+    @include transition
     &:hover
       background-color: $orangevl
       a
         color: $bluel
     a
       font-family: $sofiabold
-      transition: all 0.2s ease-in-out
+      @include transition
       padding: 15px 0px 10px 5px
       font-size: 30px
       line-height: 30px

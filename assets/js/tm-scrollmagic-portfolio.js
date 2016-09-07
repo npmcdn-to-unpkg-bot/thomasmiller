@@ -6,6 +6,7 @@ $(function(){
   var screensLeft = $('.portfolio .project.left .container-screen');
   var screensRight = $('.portfolio .project.right .container-screen');
   var hr = $('.project-desc>hr');
+  var otherprojects = $('.portfolio .other-project');
 
   // only execute on large screens
   if (window.matchMedia('(min-width: 767px)').matches) {
@@ -43,6 +44,20 @@ $(function(){
     $(screensRight).each(function() {
       
       var tween = TweenMax.from($(this), 0.3, {autoAlpha: 0, x: '-=30', ease:Linear.easeNone});
+      var scene = new ScrollMagic.Scene({
+        triggerElement: this,
+        offset: -300
+      })
+      .setTween(tween)
+      .addTo(controller);
+      
+    });
+    // =====================================================
+    // Other projects animation
+    // =====================================================
+    $(otherprojects).each(function() {
+      
+      var tween = TweenMax.from($(this), 0.3, {autoAlpha: 0, y: '+=30', ease:Linear.easeNone});
       var scene = new ScrollMagic.Scene({
         triggerElement: this,
         offset: -300

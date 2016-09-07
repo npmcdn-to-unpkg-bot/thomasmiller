@@ -1,12 +1,12 @@
-Title: Storytelling Prison.ch
+Title: Storytelling
 
 ----
 
-Urlname: prison.ch
+Urlname: stories.prison.ch
 
 ----
 
-Theurl: http://stories.prison.ch/de/ubergangsmanagement/
+Theurl: http://stories.prison.ch/fr/transition-vers-lintegration/
 
 ----
 
@@ -23,3 +23,7 @@ Dev: 0
 ----
 
 Macmac: 1
+
+----
+
+Featured: 1

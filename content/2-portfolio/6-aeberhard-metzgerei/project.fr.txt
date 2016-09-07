@@ -1,0 +1,29 @@
+Title: Metzgerei Aeberhard
+
+----
+
+Urlname: metzgerei-aeberhard.ch
+
+----
+
+Theurl: http://metzgerei-aeberhard.ch
+
+----
+
+Text: Un nouveau site web pour la boucherie Aeberhard à Kerzers.
+
+----
+
+Key: Kirby
+
+----
+
+Featured: 1
+
+----
+
+Dev: 0
+
+----
+
+Macmac: 1

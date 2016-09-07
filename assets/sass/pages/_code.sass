@@ -39,7 +39,7 @@
       flex: 1
       padding: 10px 30px
       cursor: pointer
-      transition: all 0.2s ease-in-out
+      @include transition
       background-color: lighten($bluevl, 22%)
       margin-right: 1px
       color: $black
@@ -57,7 +57,7 @@
   background-color: $bluevd
   padding: 40px
   position: relative
-  transition: all 0.2s ease-in-out
+  @include transition
   border-radius: 0px 0px 5px 5px
   .description
     border-radius: 5px
@@ -67,7 +67,7 @@
     width: calc(100% - 90px)
     border: 8px solid $orange
     opacity: 0
-    transition: all 0.2s ease-in-out
+    @include transition
     z-index: 1
     .icons
       padding: 10px 0px
