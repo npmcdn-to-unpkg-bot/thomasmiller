@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-<script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
   <?php 
   /* Defining the language variable */
   if($site->language()=='fr'){

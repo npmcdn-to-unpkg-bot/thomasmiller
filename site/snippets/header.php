@@ -33,7 +33,7 @@
   <!-- End of favicons -->
   <?php if($page->id() == 'pics'){
     echo "<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>";
-    echo "<script src='https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js'></script>";
+    echo "<script src='https://unpkg.com/imagesloaded@4.1/imagesloaded.pkgd.min.js'></script>";
     } ?>
   <!-- detecting mobile -->
   <?php 
